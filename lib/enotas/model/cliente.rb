@@ -13,6 +13,8 @@ module Enotas
       attribute :indicadorContribuinte_icms, String
       attribute :telefone, String
 
+      attribute :endereco, Endereco
+
     end
   end
 end

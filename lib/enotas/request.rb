@@ -10,6 +10,7 @@ module Enotas
     end
 
     private
+
     def request(method, path, body)
       body_serialized = serialize_body(body)
 
@@ -21,7 +22,7 @@ module Enotas
           request.url(path, body_serialized)
         when :post
           request.path = path
-          request.body_serialized = body_serialized.to_json
+          request.body = body_serialized.to_json
         end
       end
 
@@ -31,5 +32,6 @@ module Enotas
     def serialize_body(body)
       VirtusConvert.new(body, reject_nils: true).to_hash
     end
+
   end
 end

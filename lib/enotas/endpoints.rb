@@ -25,10 +25,6 @@ module Enotas
       delete("empresas/#{firm_id}/nfes/#{external_id}")
     end
 
-    def nfe_delete_by_external_id(firm_id, external_id)
-      delete("empresas/#{firm_id}/nfes/#{external_id}/pdf")
-    end
-
     def nfe_get_pdf(firm_id, id)
       get("empresas/#{firm_id}/nfes/#{id}")
     end

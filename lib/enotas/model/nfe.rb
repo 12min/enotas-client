@@ -16,7 +16,6 @@ module Enotas
       attribute :nfeIdSubstitituir, Float
 
       attribute :servico, Servico
-      attribute :endereco, Endereco
       attribute :cliente, Cliente
 
     end
