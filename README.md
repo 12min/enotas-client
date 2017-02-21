@@ -1,6 +1,6 @@
-# eNotas
+# eNotas Gateway - Ruby
 
-Wrapper ruby da API do eNotas Gateway, plataforma de emissâo automática de nota fiscal eletrônica de serviço (NFS-e), Produto (NF-e) e Consumidor (NFC-e).
+Wrapper Ruby da API do eNotas Gateway, plataforma de emissâo automática de nota fiscal eletrônica de serviço (NFS-e), Produto (NF-e) e Consumidor (NFC-e).
 
 A documentação completa dos endpoints pode ser encontrada aqui: [API eNotas Gateway](http://app.enotasgw.com.br/docs).
 
